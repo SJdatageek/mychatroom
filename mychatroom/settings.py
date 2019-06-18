@@ -160,3 +160,11 @@ CHANNEL_LAYERS = {
         },
     },
 }
+
+STATIC_URL = '/static/'
+
+MEDIA_ROOT = u'/home/username/projectname/media'
+MEDIA_URL = '/media/'
+
+STATIC_ROOT = u'/home/username/projectname/static'
+STATIC_URL = '/static/'
