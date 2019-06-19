@@ -163,10 +163,10 @@ CHANNEL_LAYERS = {
     },
 }
 
-STATIC_URL = '/static/'
+# STATIC_URL = '/static/'
 
-MEDIA_ROOT = u'C:/Users/Saloni/mychatroom/media'
-MEDIA_URL = '/media/'
+# MEDIA_ROOT = u'C:/Users/Saloni/mychatroom/media'
+# MEDIA_URL = '/media/'
 
-STATIC_ROOT = u'C:/Users/Saloni/mychatroom/static'
-STATIC_URL = '/static/'
+# STATIC_ROOT = u'C:/Users/Saloni/mychatroom/static'
+# STATIC_URL = '/static/'
