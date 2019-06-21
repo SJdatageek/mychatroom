@@ -2,9 +2,7 @@ from django.shortcuts import render
 from django.utils.safestring import mark_safe
 import json
 
-from aylienapiclient import textapi
 
-client = textapi.Client("d898e8af", "82b54c171544b210e085d9eeb4594db3")
 
 def index(request):
     return render(request, 'chat/index.html', {})
@@ -15,9 +13,9 @@ def room(request, room_name):
     })
 
 
-#import paralleldots
-
-
+# import paralleldots
+#
+#
 # def do_sentiment_analysis(request):
 #     user_sent = ""
 #     user_input = ""
@@ -38,4 +36,4 @@ def room(request, room_name):
 #         else:
 #             fname = "na"
 #
-#     return render(request, 'consumers.py', {'resp': user_sent, 'fname': fname, 'user_input': text_data})
+#     return render(request, 'room.html', {'resp': user_sent, 'fname': fname, 'user_input': user_input})
